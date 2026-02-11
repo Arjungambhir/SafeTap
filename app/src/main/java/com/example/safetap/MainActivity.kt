@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val intent = Intent(Intent.ACTION_CALL)
-        intent.data = Uri.parse("tel:9850350769") // India Emergency 112
+        intent.data = Uri.parse("tel:7447843165") // India Emergency 112
 
         startActivity(intent)
     }
